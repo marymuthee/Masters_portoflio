@@ -66,7 +66,7 @@
             <select id="semester-filter" aria-label="Filter projects by semester">
               <option value="all">All semesters</option>
               <option value="1">Semester 1</option>
-              <!-- <option value="2">Semester 2</option> -->
+              <option value="2">Semester 2</option>
               <!-- <option value="3">Semester 3</option>-->
               <!-- <option value="4">Semester 4</option> -->
             </select>
@@ -75,6 +75,32 @@
 
         <!-- PROJECT CARDS -->
         <section class="projects-grid" aria-label="Project list">
+
+          <!-- Semester 1 -->
+          <article class="project-card" data-semester="2">
+            <figure class="project-image">
+              <img src="/images/aef.png " SDG1 Map">
+            </figure>
+            <div class="project-content">
+              <h2 class="project-title">Detecting
+                Center-Pivot Irrigated Croplands Using Google Embeddings
+              </h2>
+              <p class="project-meta">Semester 2 • Analysis and Modelling</p>
+              <p class="project-description">
+                Detected center-pivot irrigation in Egypt using zero-shot embedding similarity search with AlphaEarth
+                (Google DeepMind), then transferred the same detections to Saudi Arabia with no additional labels. Built
+                entirely in Google Earth Engine using self-supervised geospatial foundation model embeddings
+              </p>
+            </div>
+            <div class="project-footer">
+              <div class="project-tags">
+                <span>GEE</span>
+                <span>QGIS</span>
+                <span>Google Embeddings</span>
+              </div>
+              <a href="https://github.com/marymuthee/center_pivot_detection_AEF" class="btn btn-small">View Project</a>
+            </div>
+          </article>
 
           <!-- Semester 1 -->
           <article class="project-card" data-semester="1">
@@ -88,7 +114,8 @@
               <p class="project-meta">Semester 1 • Spatial Thinking & Modelling</p>
               <p class="project-description">
                 This project develops an end-to-end automated workflow that integrates news media-based event detection
-                with Sentinel-1 SAR imagery for near-real-time flood mapping. The resulting flood maps are published through a web-based platform to support rapid
+                with Sentinel-1 SAR imagery for near-real-time flood mapping. The resulting flood maps are published
+                through a web-based platform to support rapid
                 visualization and dissemination.
               </p>
             </div>
